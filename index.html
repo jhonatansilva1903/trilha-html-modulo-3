@@ -1,44 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SUPER NEW WIKI</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
-
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
+  <header>
+    <div class="header-container">
+      <img src="assets/images/logo.png" alt="Logo Wikipedia" class="logo"/>
+      <h1>SUPER NEW WIKI</h1>
     </div>
+  </header>
 
-    <div class="bar"></div>
+  <nav class="anchors">
+    <h2>Neste artigo</h2>
+    <ul>
+      <li><a href="#origem">🌐 Origem</a></li>
+      <li><a href="#evolucao">📈 Evolução</a></li>
+      <li><a href="#impacto">🌍 Impacto Global</a></li>
+    </ul>
+  </nav>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li><a href="#">Links</a></li>
-            </ul>
-        </div>
+  <main class="main-container">
+    <aside class="sidebar">
+      <h2>Explorar</h2>
+      <ul>
+        <li><a href="#">Web 2.0</a></li>
+        <li><a href="#">Redes Sociais</a></li>
+        <li><a href="#">Inteligência Artificial</a></li>
+      </ul>
+    </aside>
 
-        <div class="main">
-            
-        </div>
+    <section class="content">
+      <article id="origem" class="card">
+        <h2>🌐 Origem</h2>
+        <p>A internet surgiu como um projeto militar chamado ARPANET, durante a Guerra Fria nos anos 60...</p>
+      </article>
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
-    </div>
+      <article id="evolucao" class="card">
+        <h2>📈 Evolução</h2>
+        <p>De uma rede limitada ao meio acadêmico, a internet evoluiu para uma rede global e comercial...</p>
+      </article>
 
-    <div class="footer">
+      <article id="impacto" class="card">
+        <h2>🌍 Impacto Global</h2>
+        <p>Hoje, a internet conecta bilhões de pessoas e transformou o modo como vivemos, aprendemos e trabalhamos...</p>
+      </article>
+    </section>
+  </main>
 
-    </div>
+  <footer>
+    <p>Projeto recriado por Jhonatan Silva &copy; 2025</p>
+  </footer>
 </body>
 </html>
